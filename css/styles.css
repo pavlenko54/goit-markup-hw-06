@@ -936,7 +936,8 @@ top: 11px;
 left: 12px;
 }
 .modal-input:focus{
-    border-color: var(--accent-color);
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
 }
 
 .modal-input:focus + .modal-input-icon{
